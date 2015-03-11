@@ -1,0 +1,42 @@
+* { margin:0; padding:0; } /* to remove the top and left whitespace */
+html, body { width:100%; height:100%; } /* just to be sure these are full screen*/
+canvas { display:block;background: #000; } /* To remove the scrollbars */
+
+#canvas-wrap { position:relative } /* Make this a positioned parent */
+#canvas-menu     { position:absolute; top:30px; left:30px; }
+
+.btn-ttc,
+.btn-ttc:hover,
+.btn-ttc:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+
+/* Apply the custom-colored gradients */
+/* Note: you'll need to include all the appropriate gradients for various browsers and standards. */
+.btn-ttc {
+  background-repeat: repeat-x;  
+  height:20px;
+  background-color: #0f7fc7;
+  padding: 0px 4px;
+  margin: 1px 0px;
+}
+
+/* Set the hover state */
+/* An easy hover state is just to move the gradient up a small amount. Add other embellishments as you see fit. */
+.btn-ttc:hover {
+  background-position: 0 -15px;
+  background-color: #0f7da7;
+}
+
+.nav > li {
+  margin:0px 4px;
+}
+
+.slider-width{
+	width:160px;
+}
+
+.label{
+	margin-left:12px;
+}
